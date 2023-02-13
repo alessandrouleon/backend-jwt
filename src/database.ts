@@ -17,7 +17,7 @@ export function seedUserStore() {
     permissions: ['users.list', 'metrics.list'],
     roles: ['editor']
   })
-}   
+}     
 
 export function createRefreshToken(email: string) {
   const currentUserTokens = tokens.get(email) ?? []
