@@ -165,4 +165,4 @@ app.get('/me', checkAuthMiddleware, (request, response) => {
   })
 });
 
-app.listen(3333);
+app.listen(3333, () => console.log(`Serve run on port ${3333}`));
